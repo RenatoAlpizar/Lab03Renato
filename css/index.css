@@ -1,6 +1,48 @@
 @import "principal.css";
 
 
-.imagen, image{
-    float: right;
+.carta{
+    border: var(--AzulPrimario) solid 9px;
+    padding: 1em;/*relleno*/
+    margin-bottom: 2em;
+    box-shadow: 25px 15px 17px var(--AzulPrimario);
 }
+
+.card a{
+    background-color: var(--AzulPrimario);
+    text-decoration-color: var(--blanco);
+    -moz-text-decoration-color: var(--blanco);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card-title{
+    color: var(--blanco) !important;
+}
+
+.formulario h2{
+    text-decoration-color: var(--AzulPrimario);
+    -moz-text-decoration-color: var(--AzulPrimario);
+}
+
+
+.formulario{
+    border-radius: 10px;
+    padding: 4em;
+    /*relleno*/margin-bottom: 2em;
+    box-shadow: 1px 15px 17px var(--AzulPrimario);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-style: ridge;
+}
+
+main h2{
+    text-decoration: var(--AzulPrimario);
+}
+
+
